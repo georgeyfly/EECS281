@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Debug Project",
+            "type": "lldb",
+            "request": "launch",
+            "preLaunchTask": "build debug executable",
+            "program": "${workspaceFolder}/project2_debug",
+            "stdio": [
+                "large-PR-in.txt", // redirect stdin
+                "bug-test.txt", // redirect stdout
+                null // redirect stderr
+            ],
+            "args": ["-vgwm"],
+            "stopOnEntry": false,
+            "cwd": "${workspaceFolder}",
+            "postDebugTask": "clean workspace"
+        },
+    ]
+}

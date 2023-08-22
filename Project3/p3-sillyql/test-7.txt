@@ -1,0 +1,36 @@
+#try 17 20 21
+CREATE 281 4 string int bool double a b c d
+INSERT INTO 281 8 ROWS
+das 2 false 3232.1
+a -2 true 212.234
+b 3 false 3232.1
+daxs 5 true 212.234
+das 20 false 3232.1
+daxs -200 true 212.234
+d 200 false 3232.1
+45 -25 true 212.234
+CREATE 282 4 string int bool double a b c d
+INSERT INTO 282 8 ROWS
+das 20 false 3232.1
+a -2 true 212.234
+b 20 false 3232.1
+daxs -2 true 212.234
+das 20 false 3232.1
+daxs -2 true 212.234
+d 20 false 3232.1
+45 -2 true 212.234
+GENERATE FOR 281 bst INDEX ON b
+DELETE FROM 281 WHERE b = 2
+DELETE FROM 281 WHERE b < -20
+DELETE FROM 281 WHERE b > 100
+PRINT FROM 281 4 a b c d WHERE b = 5
+PRINT FROM 281 4 a b c d WHERE b > 100
+PRINT FROM 281 4 a b c d WHERE b < 0
+PRINT FROM 281 4 a b c d All
+PRINT FROM 281 4 a b c d WHERE d < 212.235
+PRINT FROM 281 4 a b c d WHERE d > 212.235
+JOIN 282 AND 281 WHERE b = sdds AND PRINT 3 a 1 b 2 c 1
+JOIN 281 AND 281 WHERE b = b AND PRINT 3 a 1 b 2 c 1
+JOIN 281 AND 2das WHERE b = b AND PRINT 3 a 1 b 2 c 1
+JOIN da1 AND 281 WHERE b = b AND PRINT 3 a 1 b 2 c 1
+QUIT

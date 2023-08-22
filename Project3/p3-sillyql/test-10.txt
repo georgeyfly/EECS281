@@ -1,0 +1,50 @@
+#similar to test-5 change operation for delete
+CREATE 281 3 string string bool s1 s2 b1
+INSERT INTO 281 8 ROWS
+happy Darden true
+stressed students false
+busy office_hours true
+stressed students true
+stressed Paoletti true
+happy Darden true
+happy Sith true
+victorious Sith true
+GENERATE FOR 281 bst INDEX ON s1
+PRINT FROM 281 2 s1 s2 WHERE s1 = happy
+GENERATE FOR 281 bst INDEX ON s1
+PRINT FROM 281 2 s1 s2 All
+GENERATE FOR 281 hash INDEX ON s2
+DELETE FROM 281 WHERE s2 > Darden
+DELETE FROM 281 WHERE s1 < stressed
+DELETE FROM 281 WHERE s2 = Darden
+PRINT FROM 281 2 s1 s2 WHERE s2 = Darden
+GENERATE FOR 281 hash INDEX ON b1
+PRINT FROM 281 2 s1 s2 WHERE b1 = true
+GENERATE FOR 281 bst INDEX ON s2
+PRINT FROM 281 2 s1 s2 All
+CREATE 282 3 string string bool s1 s2 b1
+INSERT INTO 281 8 ROWS
+happy Darden true
+stressed students false
+busy office_hours true
+stressed students true
+stressed Paoletti true
+happy Darden true
+happy Sith true
+victorious Sith true
+DELETE FROM 281 WHERE b1 > true
+DELETE FROM 281 WHERE b1 < true
+INSERT INTO 282 8 ROWS
+happy Darden true
+stressed students false
+busy office_hours true
+stressed students true
+stressed Paoletti true
+happy Darden true
+happy Sith true
+victorious Sith true
+GENERATE FOR 282 bst INDEX ON s1
+JOIN 281 AND 282 WHERE s1 = s1 AND PRINT 3 s1 1 s2 2 b1 1
+REMOVE 281
+REMOVE 282
+QUIT

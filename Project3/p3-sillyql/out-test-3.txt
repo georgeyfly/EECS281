@@ -1,0 +1,84 @@
+% % New table 281class with column(s) emotion person Y/N val created
+% Added 8 rows to 281class from position 0 to 7
+% person emotion 
+Printed 0 matching rows from 281class
+% person emotion 
+Sith happy 
+Sith victorious 
+Printed 2 matching rows from 281class
+% person emotion 
+Darden happy 
+students stressed 
+office_hours busy 
+students stressed 
+Paoletti stressed 
+Darden happy 
+Printed 6 matching rows from 281class
+% Created hash index for table 281class on column val
+% person emotion 
+Printed 0 matching rows from 281class
+% person emotion 
+Sith happy 
+Sith victorious 
+Printed 2 matching rows from 281class
+% person emotion 
+Darden happy 
+students stressed 
+office_hours busy 
+students stressed 
+Paoletti stressed 
+Darden happy 
+Printed 6 matching rows from 281class
+% Added 2 rows to 281class from position 8 to 9
+% person emotion 
+Sith happy 
+Sith victorious 
+Sith victorious 
+Printed 3 matching rows from 281class
+% person emotion 
+Darden happy 
+students stressed 
+office_hours busy 
+students stressed 
+Paoletti stressed 
+Darden happy 
+office_hours busy 
+Printed 7 matching rows from 281class
+% person emotion 
+Printed 0 matching rows from 281class
+% Created bst index for table 281class on column val
+% person emotion 
+Sith victorious 
+Sith victorious 
+Sith happy 
+Printed 3 matching rows from 281class
+% person emotion 
+Darden happy 
+office_hours busy 
+students stressed 
+office_hours busy 
+students stressed 
+Paoletti stressed 
+Darden happy 
+Printed 7 matching rows from 281class
+% person emotion 
+Printed 0 matching rows from 281class
+% Created bst index for table 281class on column person
+% person emotion 
+Darden happy 
+Darden happy 
+Printed 2 matching rows from 281class
+% person emotion 
+Paoletti stressed 
+Sith happy 
+Sith victorious 
+Sith victorious 
+office_hours busy 
+office_hours busy 
+students stressed 
+students stressed 
+Printed 8 matching rows from 281class
+% person emotion 
+Printed 0 matching rows from 281class
+% Table 281class deleted
+% Thanks for being silly!

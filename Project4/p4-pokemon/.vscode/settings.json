@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "vector": "cpp",
+        "__bit_reference": "cpp",
+        "__mutex_base": "cpp",
+        "__split_buffer": "cpp",
+        "tuple": "cpp",
+        "iostream": "cpp"
+    }
+}

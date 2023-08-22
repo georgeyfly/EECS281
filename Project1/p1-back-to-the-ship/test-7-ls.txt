@@ -1,0 +1,14 @@
+M
+2
+4
+//H is above the E
+//level 0
+.H..
+....
+....
+#..E
+//level 1
+.E..
+#.E.
+EESE
+#.EE

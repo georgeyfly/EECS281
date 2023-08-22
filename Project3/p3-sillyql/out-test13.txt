@@ -1,0 +1,14 @@
+% % New table 281 with column(s) created
+% New table 282 with column(s) s1 s2 b1 created
+% Added 0 rows to 281 from position 0 to 18446744073709551615
+% Error during GENERATE: s1 does not name a column in 281
+% Error during DELETE: s1 does not name a column in 281
+% Error during PRINT: s1 does not name a column in 281
+% Error during PRINT: s1 does not name a column in 281
+% Error during PRINT: s1 does not name a column in 281
+% Error during INSERT: pets does not name a table in the database
+% Error during JOIN: s1 does not name a column in 281
+% Error during JOIN: s1 does not name a column in 281
+% Table 281 deleted
+% Table 282 deleted
+% Thanks for being silly!

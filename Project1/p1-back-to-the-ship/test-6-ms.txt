@@ -1,0 +1,14 @@
+M
+2
+4
+//illegal character
+//level 0
+.H..
+...E
+E.ES
+#..E
+//level 1
+....
+#..F
+E#E.
+#..E

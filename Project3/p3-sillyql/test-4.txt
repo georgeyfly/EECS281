@@ -1,0 +1,31 @@
+# similar to test-5 all type do print and delete on hash idx
+CREATE 281 4 string int bool double a b c d
+INSERT INTO 281 8 ROWS
+das 20 false 3232.1
+a -2 true 212.234
+b 20 false 3232.1
+daxs -2 true 212.234
+das 20 false 3232.1
+daxs -2 true 212.234
+d 20 false 3232.1
+45 -2 true 212.234
+CREATE 282 4 string int bool double a b c d
+INSERT INTO 282 8 ROWS
+das 20 false 3232.1
+a -2 true 212.234
+b 20 false 3232.1
+daxs -2 true 212.234
+das 20 false 3232.1
+daxs -2 true 212.234
+d 20 false 3232.1
+45 -2 true 212.234
+GENERATE FOR 281 hash INDEX ON d
+PRINT FROM 281 4 a b c d WHERE d = 212.234
+PRINT FROM 281 4 a b c d WHERE d = 212.235
+PRINT FROM 281 4 a b c d WHERE d < 212.235
+PRINT FROM 281 4 a b c d WHERE d > 212.235
+DELETE FROM 281 WHERE d = 212.235
+DELETE FROM 281 WHERE d > 212.235
+DELETE FROM 281 WHERE d < 212.235
+JOIN 282 AND 281 WHERE b = b AND PRINT 3 a 1 b 2 c 1
+QUIT

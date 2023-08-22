@@ -1,0 +1,151 @@
+% % New table 281 with column(s) a b c d created
+% Added 8 rows to 281 from position 0 to 7
+% New table 282 with column(s) a b c d created
+% Added 8 rows to 282 from position 0 to 7
+% Error during GENERATE: 283 does not name a table in the database
+% Error during GENERATE: e does not name a column in 281
+% Error during GENERATE: das does not name a column in 281
+% Error during GENERATE: das does not name a column in 281
+% Created bst index for table 281 on column b
+% a b c d 
+Printed 0 matching rows from 281
+% a b c d 
+das 0 false 3232.1 
+a 0 true 212.234 
+b 0 false 3232.1 
+daxs 0 true 212.234 
+das 0 false 3232.1 
+daxs 0 true 212.234 
+d 0 false 3232.1 
+45 0 true 212.234 
+Printed 8 matching rows from 281
+% a b c d 
+Printed 0 matching rows from 281
+% a b c d 
+Printed 0 matching rows from 281
+% a b c d 
+das 0 false 3232.1 
+a 0 true 212.234 
+b 0 false 3232.1 
+daxs 0 true 212.234 
+das 0 false 3232.1 
+daxs 0 true 212.234 
+d 0 false 3232.1 
+45 0 true 212.234 
+Printed 8 matching rows from 281
+% a b c d 
+Printed 0 matching rows from 281
+% a b c d 
+Printed 0 matching rows from 281
+% Error: unrecognized command
+% Error: unrecognized command
+% a b c d 
+Printed 0 matching rows from 281
+% a b c d 
+das 0 false 3232.1 
+a 0 true 212.234 
+b 0 false 3232.1 
+daxs 0 true 212.234 
+das 0 false 3232.1 
+daxs 0 true 212.234 
+d 0 false 3232.1 
+45 0 true 212.234 
+Printed 8 matching rows from 281
+% a b c d 
+Printed 0 matching rows from 281
+% a b c d 
+das 0 false 3232.1 
+a 0 true 212.234 
+b 0 false 3232.1 
+daxs 0 true 212.234 
+das 0 false 3232.1 
+daxs 0 true 212.234 
+d 0 false 3232.1 
+45 0 true 212.234 
+Printed 8 matching rows from 281
+% a b c d 
+a 0 true 212.234 
+daxs 0 true 212.234 
+daxs 0 true 212.234 
+45 0 true 212.234 
+Printed 4 matching rows from 281
+% a b c d 
+das 0 false 3232.1 
+b 0 false 3232.1 
+das 0 false 3232.1 
+d 0 false 3232.1 
+Printed 4 matching rows from 281
+% Error during JOIN: sdds does not name a column in 281
+% a b c 
+das 0 false 
+das 0 false 
+das 0 false 
+das 0 false 
+das 0 false 
+das 0 false 
+das 0 false 
+das 0 false 
+a 0 true 
+a 0 true 
+a 0 true 
+a 0 true 
+a 0 true 
+a 0 true 
+a 0 true 
+a 0 true 
+b 0 false 
+b 0 false 
+b 0 false 
+b 0 false 
+b 0 false 
+b 0 false 
+b 0 false 
+b 0 false 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+das 0 false 
+das 0 false 
+das 0 false 
+das 0 false 
+das 0 false 
+das 0 false 
+das 0 false 
+das 0 false 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+daxs 0 true 
+d 0 false 
+d 0 false 
+d 0 false 
+d 0 false 
+d 0 false 
+d 0 false 
+d 0 false 
+d 0 false 
+45 0 true 
+45 0 true 
+45 0 true 
+45 0 true 
+45 0 true 
+45 0 true 
+45 0 true 
+45 0 true 
+Printed 64 rows from joining 281 to 281
+% Error during JOIN: 2das does not name a table in the database
+% Error during JOIN: da1 does not name a table in the database
+% a b c 
+Printed 0 rows from joining 281 to 282
+% Error during JOIN: das does not name a column in 281
+% Error during JOIN: bsda does not name a column in 282
+% Thanks for being silly!

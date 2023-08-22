@@ -1,0 +1,49 @@
+#try 17 20 21 all the same value
+CREATE 281 4 string int bool double a b c d
+INSERT INTO 281 8 ROWS
+das 0 false 3232.1
+a 0 true 212.234
+b 0 false 3232.1
+daxs 0 true 212.234
+das 0 false 3232.1
+daxs 0 true 212.234
+d 0 false 3232.1
+45 0 true 212.234
+CREATE 282 4 string int bool double a b c d
+INSERT INTO 282 8 ROWS
+das 20 false 3232.1
+a -2 true 212.234
+b 20 false 3232.1
+daxs -2 true 212.234
+das 20 false 3232.1
+daxs -2 true 212.234
+d 20 false 3232.1
+45 -2 true 212.234
+GENERATE FOR 283 bst INDEX ON b
+GENERATE FOR 281 bst INDEX ON e
+GENERATE FOR 281 bst INDEX ON das
+GENERATE FOR 281 hash INDEX ON das
+GENERATE FOR 281 bst INDEX ON b
+PRINT FROM 281 4 a b c d WHERE b = 5
+PRINT FROM 281 4 a b c d WHERE b < 5
+PRINT FROM 281 4 a b c d WHERE b > 5
+PRINT FROM 281 4 a b c d WHERE b = 1000
+PRINT FROM 281 4 a b c d WHERE b < 1000
+PRINT FROM 281 4 a b c d WHERE b > 1000
+PRINT FROM 281 4 a b c d WHERE b > 100
+dasdsa
+sd
+PRINT FROM 281 4 a b c d WHERE b < 0
+PRINT FROM 281 4 a b c d WHERE b = 0
+PRINT FROM 281 4 a b c d WHERE b > 0
+PRINT FROM 281 4 a b c d All
+PRINT FROM 281 4 a b c d WHERE d < 212.235
+PRINT FROM 281 4 a b c d WHERE d > 212.235
+JOIN 282 AND 281 WHERE b = sdds AND PRINT 3 a 1 b 2 c 1
+JOIN 281 AND 281 WHERE b = b AND PRINT 3 a 1 b 2 c 1
+JOIN 281 AND 2das WHERE b = b AND PRINT 3 a 1 b 2 c 1
+JOIN da1 AND 281 WHERE b = b AND PRINT 3 a 1 b 2 c 1
+JOIN 281 AND 282 WHERE b = b AND PRINT 3 a 1 b 2 c 1
+JOIN 281 AND 282 WHERE b = b AND PRINT 3 das 1 b 2 c 1
+JOIN 281 AND 282 WHERE b = b AND PRINT 3 a 1 bsda 2 c 1
+QUIT

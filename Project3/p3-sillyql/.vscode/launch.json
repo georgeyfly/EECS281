@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Debug Project",
+            "type": "lldb",
+            "request": "launch",
+            "preLaunchTask": "build debug executable",
+            "program": "${workspaceFolder}/Silly_debug",
+            "stdio": [
+                "test-11.txt", // redirect stdin
+                "out-test-11.txt", // redirect stdout
+                null // redirect stderr
+            ],
+            // "args": ["-q","long-quiet-input.txt","long-quiet-out-test.txt"],
+            "args": [],
+            "stopOnEntry": false,
+            "cwd": "${workspaceFolder}",
+            "postDebugTask": "clean workspace"
+        },
+    ]
+}

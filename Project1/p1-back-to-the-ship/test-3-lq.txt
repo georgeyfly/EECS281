@@ -1,0 +1,31 @@
+M
+5
+4
+//When there is only one elevator in the same level as H, 
+//which is not in the level of S. and you need to take elevator 
+// from different levels to get to that specific elevator
+//level 0
+####
+####
+####
+####
+//level 1
+EEEE
+EEEE
+EEEE
+EEEE
+//level 2
+.H..
+....
+...E
+....
+//level 3
+....
+....
+E..S
+#..#
+//level 4
+....
+#...
+E#..
+#...

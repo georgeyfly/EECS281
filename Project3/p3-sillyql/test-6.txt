@@ -1,0 +1,19 @@
+#test 8 change to bst
+#generating an index, delete out a table, and adding more rows again
+# gad
+CREATE 281 3 string string bool s1 s2 b1
+INSERT INTO 281 2 ROWS
+a b true
+a b true
+GENERATE FOR 281 bst INDEX ON s1
+INSERT INTO 281 6 ROWS
+c b true
+c b true
+a b true
+d b true
+1 b true
+A b true
+DELETE FROM 281 WHERE s1 = a
+DELETE FROM 281 WHERE s1 < 2
+DELETE FROM 281 WHERE s1 > a
+QUIT

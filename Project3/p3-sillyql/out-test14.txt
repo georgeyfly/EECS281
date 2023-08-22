@@ -1,0 +1,20 @@
+% % New table 281 with column(s) a b c d created
+% Added 8 rows to 281 from position 0 to 7
+% New table 282 with column(s) a b c d created
+% Added 8 rows to 282 from position 0 to 7
+% Error during GENERATE: e does not name a column in 281
+% Error during GENERATE: k does not name a column in 281
+% Printed 4 matching rows from 281
+% Printed 0 matching rows from 281
+% Printed 4 matching rows from 281
+% Printed 4 matching rows from 281
+% Created bst index for table 281 on column d
+% Printed 4 matching rows from 281
+% Printed 0 matching rows from 281
+% Printed 4 matching rows from 281
+% Printed 4 matching rows from 281
+% Deleted 0 rows from 281
+% Deleted 4 rows from 281
+% Deleted 4 rows from 281
+% Printed 0 rows from joining 282 to 281
+% Thanks for being silly!

@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Debug Project",
+            "type": "lldb",
+            "request": "launch",
+            // "preLaunchTask": "build debug executable",
+            "program": "${workspaceFolder}/testPQ_debug",
+            "stdio": [
+                null, // redirect stdin
+                null, // redirect stdout
+                null // redirect stderr
+            ],
+            "args": ["3"],
+            "stopOnEntry": false,
+            "cwd": "${workspaceFolder}",
+            // "postDebugTask": "clean workspace"
+        },
+    ]
+}

@@ -1,0 +1,39 @@
+M
+7
+4
+//S surrounded by #
+//level 0
+EEEE
+####
+EEEE
+####
+//level 1
+EEEE
+EEEE
+EEEE
+EEEE
+//level 2
+.H..
+E...
+...E
+.E..
+//level 3
+..EE
+E.#.
+E#S#
+#.##
+//level 4
+.E..
+#...
+E#.E
+#...
+//level 5
+.EE.
+...E
+E..E
+#..#
+//level 6
+EE.#
+#.#E
+E#.#
+#.E.

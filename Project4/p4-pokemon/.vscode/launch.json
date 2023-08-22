@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Debug Project",
+            "type": "lldb",
+            "request": "launch",
+            "preLaunchTask": "build debug executable",
+            "program": "${workspaceFolder}/pokemon_debug",
+            "stdio": [
+                "sample-d.txt", // redirect stdin
+                "sample-d-OPTTSP-test.txt", // redirect stdout
+                null // redirect stderr
+            ],
+            "args": ["--mode","OPTTSP"],
+            "stopOnEntry": false,
+            "cwd": "${workspaceFolder}",
+            "postDebugTask": "clean workspace"
+        },
+    ]
+}

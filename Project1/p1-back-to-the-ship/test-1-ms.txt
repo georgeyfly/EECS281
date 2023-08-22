@@ -1,0 +1,14 @@
+M
+2
+4
+//Start place surrounded by elevator
+//level 0
+.H..
+..EE
+EESE
+#.EE
+//level 1
+....
+#..E
+E#EE
+#..E
